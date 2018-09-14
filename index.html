@@ -14,42 +14,39 @@
     <title>Journée sans chaussure</title>
 </head>
 
-<body>
-    <header>
-        <section class="container">
-            <img src="images/logo_journée_sans_chaussure.png" width="150" alt="Logo">
-            <h1>Journée mondiale du travail sans chaussures !</h1>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav nav-pills mb-2 nav-justified" id="pills-tab1" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="pill" href="#pourquoi">Pourquoi ?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#organiser">Organiser</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#editionpassée">Précédentes éditions</a>
-
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#presse">Revue de presse</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#qsn">Qui sommes nous ?</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
-        </section>
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar sticky-top navbar-light bg-light">
+        <a href="#home"><img src="images/logo_journée_sans_chaussure.png" width="50" alt="Logo"></a>
+        <a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#pourquoi">Pourquoi ? <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#organiser">Organiser</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#editionpassée">Précédentes éditions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#presse">Revue de presse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#qsn">Qui sommes nous ?</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container-fluid">
+        <img src="images/logo_journée_sans_chaussure.png" width="150" alt="Logo">
+        <h1>Journée mondiale du travail sans chaussures !</h1>
     </header>
-    <article class="pourquoi">
+    <article id="pourquoi">
         <div class="container mb-5">
             <div class="row mb-3">
                 <h2>Pourquoi sans chaussures ?</h2>
@@ -84,7 +81,7 @@
             </div>
         </div>
     </article>
-    <article class="organiser">
+    <article id="organiser">
         <div class="container">
             <div class="row mb-3">
                 <h2>Organiser sur votre lieu de travail</h2>
@@ -121,7 +118,7 @@
         </div>
     </article>
     <article>
-        <div class="container">
+        <div id="editionpassée">
             <h2>Précédentes éditions</h2>
             <ul class="nav nav-pills nav-justified" id="pills-tab2" role="tablist">
                 <li class="nav-item">
@@ -269,7 +266,7 @@
             </div>
         </div>
     </article>
-    <article class="press">
+    <article id="presse">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
@@ -338,7 +335,7 @@
             </div>
         </div>
     </article>
-    <article>
+    <article id="qsn">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
