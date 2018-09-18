@@ -1,29 +1,90 @@
 /*general*/
-p{
+body{
+	font-family: 'Muli', sans-serif;
 	font-size: 16pt;
+	background-color: #000000;
 }
 h2{
 	font-size: 2.3em;
+	padding-bottom: 10px;
 }
-#organiser, #pourquoi, #editionpassée, #presse ,#qsn, header ,footer{
-	margin-top: 150px;
+header, #organiser, #pourquoi, #edition_passee, #presse{
+	/*padding-top: 150px;*/
+	padding-top: 130px;
 }
 h1{
-	font-size: 3em;
+	font-size: 2.80em;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.15);
 }
-header p{
-	font-size: 3em;
+/*buttons*/
+button, .btn{
+	background-color: #90A437;
 }
-
-
+button a, button.btn, a.btn{
+	color: #FFFFFF;
+}
+.nav-pills a{
+	background-color: #90A437;
+	color: #FFFFFF;
+}
 /*navbar*/
+.navbar{
+	background-color: rgba(0,0,0,0.75);
+}
 /*header*/
+header{
+	background-image: url(images/banniere.jpg);
+	background-size: cover;
+	background-position: 80%;
+}
 /*pourquoi*/
-/*organiser*/
-/*carousel*/
+article#pourquoi{
+	background-color: #3F3075;
+	color: #FFFFFF;
+}
 
+article img{
+	border : 6px solid #FFFFFF;
+}
+/*organiser*/
+article#organiser{
+	background-color: #2D4471;
+	color: #FFFFFF;
+}
+/*edition_passee*/
+article#edition_passee{
+	background-color: #236863;
+	color: #FFFFFF;
+}
 /*presse*/
+article#presse{
+	background-color: #3F3075;
+	color: #FFFFFF;
+}
+
+#presse .card{
+	color: #000000;
+}
 /*carte*/
-/*qui sommes nous*/
+/*qsn*/
+/*questionnaire*/
+#questionnaire{
+	background-color: #2D4471;
+	color: #FFFFFF;
+}
 /*formulaire*/
+#nous_contacter{
+	background-color: #236863;
+	color: #FFFFFF;
+}
 /*footer*/
+footer{
+	background-color: #222222;
+	color: #FFFFFF;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+footer a{
+	color: #FFFFFF;
+}
