@@ -3,19 +3,26 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-size: 16pt;
 	background-color: #000000;
+	text-shadow: 2px -2px black;
 }
 h2{
-	font-size: 2.3em;
+	font-size: 2em;
 	padding-bottom: 10px;
+	font-family: 'Holtwood One SC', serif;
+	text-shadow: 5px -5px black;
 }
-header, #organiser, #pourquoi, #edition_passee, #presse{
+#organiser, #pourquoi, #edition_passee, #presse{
 	/*padding-top: 150px;*/
-	padding-top: 130px;
+	padding-top: 150px;
+	padding-bottom: 100px;
+
 }
 h1{
 	font-size: 2.80em;
 	color: #FFFFFF;
-	background-color: rgba(0,0,0,0.15);
+	font-family: 'Holtwood One SC', serif;
+	text-shadow: 5px -5px black;
+
 }
 /*buttons*/
 button, .btn{
@@ -36,7 +43,11 @@ button a, button.btn, a.btn{
 header{
 	background-image: url(images/banniere.jpg);
 	background-size: cover;
-	background-position: 80%;
+	background-position: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+
 }
 /*pourquoi*/
 article#pourquoi{
@@ -65,6 +76,7 @@ article#presse{
 
 #presse .card{
 	color: #000000;
+	text-shadow: none;
 }
 /*carte*/
 /*qsn*/
@@ -82,8 +94,8 @@ article#presse{
 footer{
 	background-color: #222222;
 	color: #FFFFFF;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	font-size: 1em;
 }
 footer a{
 	color: #FFFFFF;
