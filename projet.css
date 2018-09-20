@@ -1,102 +1,185 @@
 /*general*/
-body{
-	font-family: 'Muli', sans-serif;
-	font-size: 16pt;
-	background-color: #000000;
-	text-shadow: 2px -2px black;
-}
-h2{
-	font-size: 2em;
-	padding-bottom: 10px;
-	font-family: 'Holtwood One SC', serif;
-	text-shadow: 5px -5px black;
-}
-#organiser, #pourquoi, #edition_passee, #presse{
-	/*padding-top: 150px;*/
-	padding-top: 150px;
-	padding-bottom: 100px;
 
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 16pt;
+    background-color: #000000;
+    text-shadow: 2px -2px black;
 }
-h1{
-	font-size: 2.80em;
-	color: #FFFFFF;
-	font-family: 'Holtwood One SC', serif;
-	text-shadow: 5px -5px black;
 
+h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-family: 'Holtwood One SC', serif;
+    text-shadow: 5px -5px black;
 }
+
+h3 {
+    font-size: 1em;
+}
+
+blockquote
+{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.sock_icon{
+    border: none;
+    width: 5%;
+}
+
+.sock_icon2{
+    border: none;
+    width: 7%;
+}
+
+#organiser,
+#pourquoi,
+#edition_passee,
+#presse {
+    /*padding-top: 150px;*/
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FFFFFF;
+    font-family: 'Holtwood One SC', serif;
+    text-shadow: 5px -5px black;
+}
+
+h1.titre_edition {
+    font-size: 2em;
+}
+
 /*buttons*/
-button, .btn{
-	background-color: #90A437;
+
+button,
+.btn {
+    background-color: #1DBA54;
+    border-radius: 25px;
 }
-button a, button.btn, a.btn{
-	color: #FFFFFF;
+
+button a,
+button.btn,
+a.btn {
+    color: #FFFFFF;
 }
-.nav-pills a{
-	background-color: #90A437;
-	color: #FFFFFF;
-}
+
 /*navbar*/
-.navbar{
-	background-color: rgba(0,0,0,0.75);
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
 }
+
 /*header*/
-header{
-	background-image: url(images/banniere.jpg);
-	background-size: cover;
-	background-position: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
 
-
+header {
+    background-image: url(images/banniere.jpg);
+    background-size: cover;
+    background-position: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 /*pourquoi*/
-article#pourquoi{
-	background-color: #3F3075;
-	color: #FFFFFF;
+
+article#pourquoi {
+    background-color: #3A0EDE;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d0ccde' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
 }
 
-article img{
-	border : 6px solid #FFFFFF;
+article img {
+    border: 6px solid #FFFFFF;
 }
+
 /*organiser*/
-article#organiser{
-	background-color: #2D4471;
-	color: #FFFFFF;
-}
-/*edition_passee*/
-article#edition_passee{
-	background-color: #236863;
-	color: #FFFFFF;
-}
-/*presse*/
-article#presse{
-	background-color: #3F3075;
-	color: #FFFFFF;
+
+article#organiser {
+    background-color: #0B52DC;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d0ccde' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
 }
 
-#presse .card{
-	color: #000000;
-	text-shadow: none;
+/*edition_passee*/
+
+article#edition_passee {
+    background-color: #3A0EDE;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d0ccde' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
 }
+
+.nav-pills a {
+    color: #FFFFFF;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #3A0EDE;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #FFF;
+    background-color: #3A0EDE;
+}
+
+/*presse*/
+
+article#presse {
+    background-color: #079C55;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
+}
+
+#presse .card.article {
+    color: #000000;
+    text-shadow: none;
+    height: 600px;
+    overflow: hidden;
+}
+
+#presse .card-text.resume {
+    font-size: 14pt;
+}
+
 /*carte*/
+
+@media screen and (max-width:600px) {
+    .carte{
+        display: none;
+    }
+}
+
 /*qsn*/
+
 /*questionnaire*/
-#questionnaire{
-	background-color: #2D4471;
-	color: #FFFFFF;
+
+#questionnaire {
+    background-color: #3A0EDE;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d0ccde' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
 }
+
 /*formulaire*/
-#nous_contacter{
-	background-color: #236863;
-	color: #FFFFFF;
+
+#nous_contacter {
+    background-color: #0B52DC;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d0ccde' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #FFFFFF;
 }
+
 /*footer*/
-footer{
-	background-color: #222222;
-	color: #FFFFFF;
-	padding-top: 10px;
-	font-size: 1em;
+
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding-top: 10px;
+    font-size: 1em;
 }
-footer a{
-	color: #FFFFFF;
+
+footer a {
+    color: #FFFFFF;
 }
