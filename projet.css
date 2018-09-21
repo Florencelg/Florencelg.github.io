@@ -15,21 +15,20 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.05em;
 }
 
-blockquote
-{
+blockquote {
     font-size: 1.5em;
     text-align: center;
 }
 
-.sock_icon{
+.sock_icon {
     border: none;
     width: 5%;
 }
 
-.sock_icon2{
+.sock_icon2 {
     border: none;
     width: 7%;
 }
@@ -51,7 +50,31 @@ h1 {
 }
 
 h1.titre_edition {
-    font-size: 2em;
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 5px -5px black 0.9;
+}
+
+@media screen and (min-width:331px) and (max-width:480px) {
+    h1,
+    .titre_edition,
+    blockquote {
+        font-size: 5vh;
+    }
+    h2 {
+        font-size: 6vh;
+    }
+}
+
+@media screen and (max-width:330px) {
+    h1,
+    .titre_edition,
+    blockquote {
+        font-size: 4vh;
+    }
+    h2 {
+        font-size: 6vh;
+    }
 }
 
 /*buttons*/
@@ -80,8 +103,8 @@ header {
     background-image: url(images/banniere.jpg);
     background-size: cover;
     background-position: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 160px;
+    padding-bottom: 180px;
 }
 
 /*pourquoi*/
@@ -137,18 +160,18 @@ article#presse {
 #presse .card.article {
     color: #000000;
     text-shadow: none;
-    height: 600px;
+    height: 550px;
     overflow: hidden;
 }
 
 #presse .card-text.resume {
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 /*carte*/
 
 @media screen and (max-width:600px) {
-    .carte{
+    .carte {
         display: none;
     }
 }
